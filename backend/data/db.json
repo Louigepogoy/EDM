@@ -1,0 +1,1388 @@
+{
+  "sources": {
+    "hr": {
+      "id": "hr",
+      "name": "HR Database",
+      "system": "PostgreSQL · HRIS",
+      "owner": "Human Resources",
+      "steward": "Maria Santos",
+      "role": "System of record for employee identity",
+      "fields": [
+        "employeeId",
+        "name",
+        "department",
+        "position",
+        "hireDate",
+        "status"
+      ],
+      "records": [
+        {
+          "_rid": "hr-1",
+          "employeeId": "1001",
+          "name": "Juan Dela Cruz",
+          "department": "IT",
+          "position": "Systems Analyst",
+          "hireDate": "2019-03-15",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-2",
+          "employeeId": "1002",
+          "name": "Maria Santos",
+          "department": "Human Resources",
+          "position": "HR Officer",
+          "hireDate": "03/22/2020",
+          "status": "active"
+        },
+        {
+          "_rid": "hr-3",
+          "employeeId": "1003",
+          "name": "Jose Rizal",
+          "department": "FIN",
+          "position": "Accountant",
+          "hireDate": "15-Jun-2018",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-4",
+          "employeeId": "1004",
+          "name": "Ana Reyes",
+          "department": "Operations",
+          "position": "Operations Lead",
+          "hireDate": "March 1, 2021",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-5",
+          "employeeId": "1004",
+          "name": "Ana Reyes",
+          "department": "OPS",
+          "position": "Operations Lead",
+          "hireDate": "2021-03-01",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-6",
+          "employeeId": "1005",
+          "name": "Pedro Penduko",
+          "department": "I.T.",
+          "position": "Network Engineer",
+          "hireDate": "2022-07-11",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-7",
+          "employeeId": "1006",
+          "name": "Liza Soberano",
+          "department": "Finance",
+          "position": "Financial Analyst",
+          "hireDate": "2023-01-09",
+          "status": "On Leave"
+        },
+        {
+          "_rid": "hr-8",
+          "employeeId": "1007",
+          "name": "Carlo Mendoza",
+          "department": "ops",
+          "position": "Warehouse Supervisor",
+          "hireDate": "31/12/2020",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-9",
+          "employeeId": "1008",
+          "name": "Grace Lim",
+          "department": "Information Technology",
+          "position": "Data Engineer",
+          "hireDate": "2020-11-30",
+          "status": "Active"
+        },
+        {
+          "_rid": "hr-10",
+          "employeeId": "1009",
+          "name": "Ramon Bautista",
+          "department": "Lab",
+          "position": "Medical Technologist",
+          "hireDate": "2017-05-20",
+          "status": "Inactive"
+        },
+        {
+          "_rid": "hr-11",
+          "employeeId": "1010",
+          "name": "Teresa Aquino",
+          "department": "Marketing",
+          "position": "Marketing Specialist",
+          "hireDate": "2024-02-05",
+          "status": "Active"
+        }
+      ]
+    },
+    "payroll": {
+      "id": "payroll",
+      "name": "Payroll Database",
+      "system": "Oracle · Payroll ERP",
+      "owner": "Finance",
+      "steward": "Jose Rizal",
+      "role": "Compensation and pay runs",
+      "fields": [
+        "empId",
+        "fullName",
+        "monthlySalary",
+        "currency",
+        "payDate"
+      ],
+      "records": [
+        {
+          "_rid": "payroll-1",
+          "empId": "1001",
+          "fullName": "JUAN DELA CRUZ",
+          "monthlySalary": "25,000",
+          "currency": "PHP",
+          "payDate": "09/30/2026"
+        },
+        {
+          "_rid": "payroll-2",
+          "empId": "1002",
+          "fullName": "maria santos",
+          "monthlySalary": "28000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-3",
+          "empId": "1003",
+          "fullName": "JOSE P. RIZAL",
+          "monthlySalary": "₱32,500.00",
+          "currency": "PHP",
+          "payDate": "30-Sep-2026"
+        },
+        {
+          "_rid": "payroll-4",
+          "empId": "1004",
+          "fullName": "Ana Reyes",
+          "monthlySalary": "35000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-5",
+          "empId": "1005",
+          "fullName": "Pedro Penduko",
+          "monthlySalary": "-500",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-6",
+          "empId": "1006",
+          "fullName": "Liza Soberano",
+          "monthlySalary": "30000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-7",
+          "empId": "1007",
+          "fullName": "Carlo Mendoza",
+          "monthlySalary": "27000",
+          "currency": "PHP",
+          "payDate": "Sep 30, 2026"
+        },
+        {
+          "_rid": "payroll-8",
+          "empId": "1008",
+          "fullName": "Grace Lim",
+          "monthlySalary": "45,000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-9",
+          "empId": "1008",
+          "fullName": "Grace Lim",
+          "monthlySalary": "45,000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-10",
+          "empId": "1009",
+          "fullName": "Ramon Bautista",
+          "monthlySalary": "31000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        },
+        {
+          "_rid": "payroll-11",
+          "empId": "1099",
+          "fullName": "Mark Tan",
+          "monthlySalary": "22000",
+          "currency": "PHP",
+          "payDate": "2026-09-30"
+        }
+      ]
+    },
+    "attendance": {
+      "id": "attendance",
+      "name": "Attendance System",
+      "system": "Biometric T&A · REST API",
+      "owner": "Operations",
+      "steward": "Ana Reyes",
+      "role": "Daily time and attendance",
+      "fields": [
+        "emp_id",
+        "employee",
+        "daysPresent",
+        "month"
+      ],
+      "records": [
+        {
+          "_rid": "attendance-1",
+          "emp_id": "1001",
+          "employee": "Juan D. Cruz",
+          "daysPresent": "22",
+          "month": "2026-09"
+        },
+        {
+          "_rid": "attendance-2",
+          "emp_id": "1002",
+          "employee": "Maria Santos",
+          "daysPresent": "21",
+          "month": "Sep 2026"
+        },
+        {
+          "_rid": "attendance-3",
+          "emp_id": "1003",
+          "employee": "Jose Rizal",
+          "daysPresent": "20",
+          "month": "2026-09"
+        },
+        {
+          "_rid": "attendance-4",
+          "emp_id": "1004",
+          "employee": "A. Reyes",
+          "daysPresent": "22",
+          "month": "09/2026"
+        },
+        {
+          "_rid": "attendance-5",
+          "emp_id": "1005",
+          "employee": "Pedro Penduko",
+          "daysPresent": "15",
+          "month": "2026-09"
+        },
+        {
+          "_rid": "attendance-6",
+          "emp_id": "1007",
+          "employee": "Carlo Mendoza",
+          "daysPresent": "35",
+          "month": "2026-09"
+        },
+        {
+          "_rid": "attendance-7",
+          "emp_id": "1008",
+          "employee": "Grace Lim",
+          "daysPresent": "23",
+          "month": "2026-09"
+        },
+        {
+          "_rid": "attendance-8",
+          "emp_id": "1009",
+          "employee": "Ramon Bautista",
+          "daysPresent": "4",
+          "month": "2026-09"
+        },
+        {
+          "_rid": "attendance-9",
+          "emp_id": "1010",
+          "employee": "Teresa Aquino",
+          "daysPresent": "19",
+          "month": "September 2026"
+        },
+        {
+          "_rid": "attendance-10",
+          "emp_id": "1011",
+          "employee": "",
+          "daysPresent": "20",
+          "month": "2026-09"
+        }
+      ]
+    }
+  },
+  "warehouse": {
+    "employees": [
+      {
+        "employeeId": "1001",
+        "name": "Juan Dela Cruz",
+        "departmentCode": "IT",
+        "department": "Information Technology",
+        "position": "Systems Analyst",
+        "hireDate": "2019-03-15",
+        "status": "active",
+        "monthlySalary": 25000,
+        "currency": "PHP",
+        "dailyRate": 1136.36,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 22,
+        "attendanceRate": 100,
+        "estimatedPay": 25000,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [
+          "Perfect attendance"
+        ],
+        "complete": true
+      },
+      {
+        "employeeId": "1002",
+        "name": "Maria Santos",
+        "departmentCode": "HR",
+        "department": "Human Resources",
+        "position": "HR Officer",
+        "hireDate": "2020-03-22",
+        "status": "active",
+        "monthlySalary": 28000,
+        "currency": "PHP",
+        "dailyRate": 1272.73,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 21,
+        "attendanceRate": 95.5,
+        "estimatedPay": 26727.27,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [],
+        "complete": true
+      },
+      {
+        "employeeId": "1003",
+        "name": "Jose Rizal",
+        "departmentCode": "FIN",
+        "department": "Finance",
+        "position": "Accountant",
+        "hireDate": "2018-06-15",
+        "status": "active",
+        "monthlySalary": 32500,
+        "currency": "PHP",
+        "dailyRate": 1477.27,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 20,
+        "attendanceRate": 90.9,
+        "estimatedPay": 29545.45,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [],
+        "complete": true
+      },
+      {
+        "employeeId": "1004",
+        "name": "Ana Reyes",
+        "departmentCode": "OPS",
+        "department": "Operations",
+        "position": "Operations Lead",
+        "hireDate": "2021-03-01",
+        "status": "active",
+        "monthlySalary": 35000,
+        "currency": "PHP",
+        "dailyRate": 1590.91,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 22,
+        "attendanceRate": 100,
+        "estimatedPay": 35000,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [
+          "Perfect attendance"
+        ],
+        "complete": true
+      },
+      {
+        "employeeId": "1005",
+        "name": "Pedro Penduko",
+        "departmentCode": "IT",
+        "department": "Information Technology",
+        "position": "Network Engineer",
+        "hireDate": "2022-07-11",
+        "status": "active",
+        "monthlySalary": null,
+        "currency": "PHP",
+        "dailyRate": null,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 15,
+        "attendanceRate": 68.2,
+        "estimatedPay": null,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [
+          "Invalid salary",
+          "Low attendance"
+        ],
+        "complete": false
+      },
+      {
+        "employeeId": "1006",
+        "name": "Liza Soberano",
+        "departmentCode": "FIN",
+        "department": "Finance",
+        "position": "Financial Analyst",
+        "hireDate": "2023-01-09",
+        "status": "on leave",
+        "monthlySalary": 30000,
+        "currency": "PHP",
+        "dailyRate": 1363.64,
+        "payDate": "2026-09-30",
+        "month": null,
+        "daysPresent": null,
+        "attendanceRate": null,
+        "estimatedPay": null,
+        "lineage": [
+          "hr",
+          "payroll"
+        ],
+        "flags": [
+          "Missing attendance"
+        ],
+        "complete": false
+      },
+      {
+        "employeeId": "1007",
+        "name": "Carlo Mendoza",
+        "departmentCode": "OPS",
+        "department": "Operations",
+        "position": "Warehouse Supervisor",
+        "hireDate": null,
+        "status": "active",
+        "monthlySalary": 27000,
+        "currency": "PHP",
+        "dailyRate": 1227.27,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": null,
+        "attendanceRate": null,
+        "estimatedPay": null,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [
+          "Invalid attendance"
+        ],
+        "complete": false
+      },
+      {
+        "employeeId": "1008",
+        "name": "Grace Lim",
+        "departmentCode": "IT",
+        "department": "Information Technology",
+        "position": "Data Engineer",
+        "hireDate": "2020-11-30",
+        "status": "active",
+        "monthlySalary": 45000,
+        "currency": "PHP",
+        "dailyRate": 2045.45,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 23,
+        "attendanceRate": 100,
+        "estimatedPay": 45000,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [
+          "Perfect attendance"
+        ],
+        "complete": true
+      },
+      {
+        "employeeId": "1009",
+        "name": "Ramon Bautista",
+        "departmentCode": "LAB",
+        "department": "Laboratory",
+        "position": "Medical Technologist",
+        "hireDate": "2017-05-20",
+        "status": "inactive",
+        "monthlySalary": 31000,
+        "currency": "PHP",
+        "dailyRate": 1409.09,
+        "payDate": "2026-09-30",
+        "month": "2026-09",
+        "daysPresent": 4,
+        "attendanceRate": 18.2,
+        "estimatedPay": 5636.36,
+        "lineage": [
+          "hr",
+          "payroll",
+          "attendance"
+        ],
+        "flags": [
+          "Inactive but clocking in"
+        ],
+        "complete": true
+      },
+      {
+        "employeeId": "1010",
+        "name": "Teresa Aquino",
+        "departmentCode": null,
+        "department": null,
+        "position": "Marketing Specialist",
+        "hireDate": "2024-02-05",
+        "status": "active",
+        "monthlySalary": null,
+        "currency": "PHP",
+        "dailyRate": null,
+        "payDate": null,
+        "month": "2026-09",
+        "daysPresent": 19,
+        "attendanceRate": 86.4,
+        "estimatedPay": null,
+        "lineage": [
+          "hr",
+          "attendance"
+        ],
+        "flags": [
+          "Missing payroll",
+          "Unmapped department"
+        ],
+        "complete": false
+      }
+    ],
+    "loadedAt": "2026-10-28T06:51:20.398Z",
+    "runId": "RUN-0002"
+  },
+  "etlRuns": [
+    {
+      "id": "RUN-0002",
+      "startedAt": "2026-10-28T06:51:20.398Z",
+      "finishedAt": "2026-10-28T06:51:20.398Z",
+      "durationMs": 0,
+      "triggeredBy": "Maria Santos",
+      "role": "analyst",
+      "status": "completed_with_errors",
+      "stats": {
+        "extracted": {
+          "hr": 11,
+          "payroll": 11,
+          "attendance": 10
+        },
+        "duplicatesRemoved": 2,
+        "rejected": 1,
+        "orphans": 1,
+        "loaded": 10,
+        "complete": 6,
+        "errors": 2,
+        "warnings": 4
+      },
+      "logs": [
+        {
+          "stage": "extract",
+          "message": "Extracted 11 records from HR Database (PostgreSQL · HRIS)"
+        },
+        {
+          "stage": "extract",
+          "message": "Extracted 11 records from Payroll Database (Oracle · Payroll ERP)"
+        },
+        {
+          "stage": "extract",
+          "message": "Extracted 10 records from Attendance System (Biometric T&A · REST API)"
+        },
+        {
+          "stage": "transform",
+          "message": "Mapped source-specific fields (employeeId / empId / emp_id) to one canonical schema"
+        },
+        {
+          "stage": "transform",
+          "message": "Removed 2 duplicate record(s), rejected 1 record(s) missing an ID or name"
+        },
+        {
+          "stage": "transform",
+          "message": "Standardised 4 employee name(s) and matched them across systems by employee ID"
+        },
+        {
+          "stage": "transform",
+          "message": "Converted 3 hire date(s) to ISO 8601 (YYYY-MM-DD)"
+        },
+        {
+          "stage": "transform",
+          "message": "Standardised 7 department value(s) to canonical codes"
+        },
+        {
+          "stage": "transform",
+          "message": "Calculated daily rate (salary ÷ 22), attendance rate and estimated pay"
+        },
+        {
+          "stage": "transform",
+          "message": "Applied business rules — 8 employee(s) flagged"
+        },
+        {
+          "stage": "transform",
+          "message": "Quarantined 1 orphan record(s) with no HR match"
+        },
+        {
+          "stage": "load",
+          "message": "Loaded 10 unified employee record(s) into the data warehouse (full refresh)"
+        },
+        {
+          "stage": "load",
+          "message": "6 of 10 records are complete and analytics-ready"
+        }
+      ],
+      "issues": [
+        {
+          "source": "hr",
+          "recordId": "1004",
+          "severity": "info",
+          "message": "Duplicate record removed"
+        },
+        {
+          "source": "hr",
+          "recordId": "1007",
+          "severity": "warning",
+          "message": "Unrecognised hire date \"31/12/2020\""
+        },
+        {
+          "source": "hr",
+          "recordId": "1010",
+          "severity": "warning",
+          "message": "Unknown department code \"Marketing\""
+        },
+        {
+          "source": "payroll",
+          "recordId": "1005",
+          "severity": "warning",
+          "message": "Salary must be positive (got -500)"
+        },
+        {
+          "source": "payroll",
+          "recordId": "1008",
+          "severity": "info",
+          "message": "Duplicate record removed"
+        },
+        {
+          "source": "attendance",
+          "recordId": "1007",
+          "severity": "warning",
+          "message": "Days present \"35\" must be a whole number 0–31"
+        },
+        {
+          "source": "attendance",
+          "recordId": "1011",
+          "severity": "error",
+          "message": "Rejected: record has no employee ID or name"
+        },
+        {
+          "source": "payroll",
+          "recordId": "1099",
+          "severity": "error",
+          "message": "Orphan record: no matching employee in HR (system of record) — quarantined"
+        }
+      ],
+      "nameResolutions": [
+        {
+          "employeeId": "1001",
+          "resolvedName": "Juan Dela Cruz",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Juan Dela Cruz",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "JUAN DELA CRUZ",
+              "confidence": 1
+            },
+            {
+              "source": "attendance",
+              "value": "Juan D. Cruz",
+              "confidence": 0.93
+            }
+          ]
+        },
+        {
+          "employeeId": "1002",
+          "resolvedName": "Maria Santos",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Maria Santos",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "maria santos",
+              "confidence": 1
+            },
+            {
+              "source": "attendance",
+              "value": "Maria Santos",
+              "confidence": 1
+            }
+          ]
+        },
+        {
+          "employeeId": "1003",
+          "resolvedName": "Jose Rizal",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Jose Rizal",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "JOSE P. RIZAL",
+              "confidence": 0.8
+            },
+            {
+              "source": "attendance",
+              "value": "Jose Rizal",
+              "confidence": 1
+            }
+          ]
+        },
+        {
+          "employeeId": "1004",
+          "resolvedName": "Ana Reyes",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Ana Reyes",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "Ana Reyes",
+              "confidence": 1
+            },
+            {
+              "source": "attendance",
+              "value": "A. Reyes",
+              "confidence": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "RUN-0001",
+      "startedAt": "2026-10-28T06:25:09.316Z",
+      "finishedAt": "2026-10-28T06:25:09.318Z",
+      "durationMs": 2,
+      "triggeredBy": "Maria Santos",
+      "role": "analyst",
+      "status": "completed_with_errors",
+      "stats": {
+        "extracted": {
+          "hr": 11,
+          "payroll": 11,
+          "attendance": 10
+        },
+        "duplicatesRemoved": 2,
+        "rejected": 1,
+        "orphans": 1,
+        "loaded": 10,
+        "complete": 6,
+        "errors": 2,
+        "warnings": 4
+      },
+      "logs": [
+        {
+          "stage": "extract",
+          "message": "Extracted 11 records from HR Database (PostgreSQL · HRIS)"
+        },
+        {
+          "stage": "extract",
+          "message": "Extracted 11 records from Payroll Database (Oracle · Payroll ERP)"
+        },
+        {
+          "stage": "extract",
+          "message": "Extracted 10 records from Attendance System (Biometric T&A · REST API)"
+        },
+        {
+          "stage": "transform",
+          "message": "Mapped source-specific fields (employeeId / empId / emp_id) to one canonical schema"
+        },
+        {
+          "stage": "transform",
+          "message": "Removed 2 duplicate record(s), rejected 1 record(s) missing an ID or name"
+        },
+        {
+          "stage": "transform",
+          "message": "Standardised 4 employee name(s) and matched them across systems by employee ID"
+        },
+        {
+          "stage": "transform",
+          "message": "Converted 3 hire date(s) to ISO 8601 (YYYY-MM-DD)"
+        },
+        {
+          "stage": "transform",
+          "message": "Standardised 7 department value(s) to canonical codes"
+        },
+        {
+          "stage": "transform",
+          "message": "Calculated daily rate (salary ÷ 22), attendance rate and estimated pay"
+        },
+        {
+          "stage": "transform",
+          "message": "Applied business rules — 8 employee(s) flagged"
+        },
+        {
+          "stage": "transform",
+          "message": "Quarantined 1 orphan record(s) with no HR match"
+        },
+        {
+          "stage": "load",
+          "message": "Loaded 10 unified employee record(s) into the data warehouse (full refresh)"
+        },
+        {
+          "stage": "load",
+          "message": "6 of 10 records are complete and analytics-ready"
+        }
+      ],
+      "issues": [
+        {
+          "source": "hr",
+          "recordId": "1004",
+          "severity": "info",
+          "message": "Duplicate record removed"
+        },
+        {
+          "source": "hr",
+          "recordId": "1007",
+          "severity": "warning",
+          "message": "Unrecognised hire date \"31/12/2020\""
+        },
+        {
+          "source": "hr",
+          "recordId": "1010",
+          "severity": "warning",
+          "message": "Unknown department code \"Marketing\""
+        },
+        {
+          "source": "payroll",
+          "recordId": "1005",
+          "severity": "warning",
+          "message": "Salary must be positive (got -500)"
+        },
+        {
+          "source": "payroll",
+          "recordId": "1008",
+          "severity": "info",
+          "message": "Duplicate record removed"
+        },
+        {
+          "source": "attendance",
+          "recordId": "1007",
+          "severity": "warning",
+          "message": "Days present \"35\" must be a whole number 0–31"
+        },
+        {
+          "source": "attendance",
+          "recordId": "1011",
+          "severity": "error",
+          "message": "Rejected: record has no employee ID or name"
+        },
+        {
+          "source": "payroll",
+          "recordId": "1099",
+          "severity": "error",
+          "message": "Orphan record: no matching employee in HR (system of record) — quarantined"
+        }
+      ],
+      "nameResolutions": [
+        {
+          "employeeId": "1001",
+          "resolvedName": "Juan Dela Cruz",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Juan Dela Cruz",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "JUAN DELA CRUZ",
+              "confidence": 1
+            },
+            {
+              "source": "attendance",
+              "value": "Juan D. Cruz",
+              "confidence": 0.93
+            }
+          ]
+        },
+        {
+          "employeeId": "1002",
+          "resolvedName": "Maria Santos",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Maria Santos",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "maria santos",
+              "confidence": 1
+            },
+            {
+              "source": "attendance",
+              "value": "Maria Santos",
+              "confidence": 1
+            }
+          ]
+        },
+        {
+          "employeeId": "1003",
+          "resolvedName": "Jose Rizal",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Jose Rizal",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "JOSE P. RIZAL",
+              "confidence": 0.8
+            },
+            {
+              "source": "attendance",
+              "value": "Jose Rizal",
+              "confidence": 1
+            }
+          ]
+        },
+        {
+          "employeeId": "1004",
+          "resolvedName": "Ana Reyes",
+          "variants": [
+            {
+              "source": "hr",
+              "value": "Ana Reyes",
+              "confidence": 1
+            },
+            {
+              "source": "payroll",
+              "value": "Ana Reyes",
+              "confidence": 1
+            },
+            {
+              "source": "attendance",
+              "value": "A. Reyes",
+              "confidence": 0.9
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "auditLog": [
+    {
+      "id": 33,
+      "at": "2026-10-28T06:55:12.294Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 32,
+      "at": "2026-10-28T06:55:12.284Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 31,
+      "at": "2026-10-28T06:51:20.400Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "etl.run",
+      "resource": "RUN-0002",
+      "outcome": "allowed",
+      "detail": "Loaded 10 records · 2 errors · 4 warnings"
+    },
+    {
+      "id": 30,
+      "at": "2026-10-28T06:50:51.639Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "auth.login",
+      "resource": "maria.santos@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 29,
+      "at": "2026-10-28T06:50:45.899Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.logout",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 28,
+      "at": "2026-10-28T06:50:02.220Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 27,
+      "at": "2026-10-28T06:50:02.214Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 26,
+      "at": "2026-10-28T06:31:44.178Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.login",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 25,
+      "at": "2026-10-28T06:31:41.488Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.logout",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 24,
+      "at": "2026-10-28T06:26:28.258Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.login",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 23,
+      "at": "2026-10-28T06:26:14.996Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "auth.logout",
+      "resource": "viewer@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 22,
+      "at": "2026-10-28T06:26:13.559Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields masked"
+    },
+    {
+      "id": 21,
+      "at": "2026-10-28T06:26:13.554Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields masked"
+    },
+    {
+      "id": 20,
+      "at": "2026-10-28T06:26:04.535Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "GET /api/sources",
+      "resource": "sources:read",
+      "outcome": "denied",
+      "detail": "Role \"viewer\" lacks sources:read"
+    },
+    {
+      "id": 19,
+      "at": "2026-10-28T06:26:04.528Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "GET /api/sources",
+      "resource": "sources:read",
+      "outcome": "denied",
+      "detail": "Role \"viewer\" lacks sources:read"
+    },
+    {
+      "id": 18,
+      "at": "2026-10-28T06:26:03.493Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields masked"
+    },
+    {
+      "id": 17,
+      "at": "2026-10-28T06:26:03.482Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields masked"
+    },
+    {
+      "id": 16,
+      "at": "2026-10-28T06:25:56.754Z",
+      "user": "Vic Ramos",
+      "role": "viewer",
+      "action": "auth.login",
+      "resource": "viewer@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 15,
+      "at": "2026-10-28T06:25:48.204Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "auth.logout",
+      "resource": "maria.santos@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 14,
+      "at": "2026-10-28T06:25:31.356Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 13,
+      "at": "2026-10-28T06:25:31.346Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 12,
+      "at": "2026-10-28T06:25:09.320Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "etl.run",
+      "resource": "RUN-0001",
+      "outcome": "allowed",
+      "detail": "Loaded 10 records · 2 errors · 4 warnings"
+    },
+    {
+      "id": 11,
+      "at": "2026-10-28T06:25:04.437Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 10,
+      "at": "2026-10-28T06:25:04.431Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 9,
+      "at": "2026-10-28T06:25:02.956Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 8,
+      "at": "2026-10-28T06:25:02.945Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "warehouse.read",
+      "resource": "employees",
+      "outcome": "allowed",
+      "detail": "Salary fields visible"
+    },
+    {
+      "id": 7,
+      "at": "2026-10-28T06:25:00.346Z",
+      "user": "Maria Santos",
+      "role": "analyst",
+      "action": "auth.login",
+      "resource": "maria.santos@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 6,
+      "at": "2026-10-28T06:22:01.980Z",
+      "user": "Dana Cruz",
+      "role": "analyst",
+      "action": "auth.logout",
+      "resource": "analyst@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 5,
+      "at": "2026-10-28T06:21:39.091Z",
+      "user": "Dana Cruz",
+      "role": "analyst",
+      "action": "auth.login",
+      "resource": "analyst@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 4,
+      "at": "2026-10-28T06:19:06.390Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.logout",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 3,
+      "at": "2026-10-28T06:19:01.026Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.login",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    },
+    {
+      "id": 2,
+      "at": "2026-10-28T06:18:55.174Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.logout",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed out"
+    },
+    {
+      "id": 1,
+      "at": "2026-10-28T06:18:47.860Z",
+      "user": "System Administrator",
+      "role": "admin",
+      "action": "auth.login",
+      "resource": "admin@edm.local",
+      "outcome": "allowed",
+      "detail": "Signed in"
+    }
+  ],
+  "users": [
+    {
+      "id": "U-1",
+      "name": "System Administrator",
+      "email": "admin@edm.local",
+      "role": "admin",
+      "passwordHash": "$2a$10$tloQ8leAN/pm32EZkfsQ..Wy90rLv.O6RcQxVxI4nsgm1JRjIT6du",
+      "createdAt": "2026-10-28T06:16:46.564Z",
+      "lastLoginAt": "2026-10-28T06:31:44.177Z"
+    },
+    {
+      "id": "U-2",
+      "name": "Dana Cruz",
+      "email": "analyst@edm.local",
+      "role": "analyst",
+      "passwordHash": "$2a$10$WEKovl4aQNjrS6SUQwdOKOrriDRqM7Fvu3sDAQDXyhLlCs0Z0eYoa",
+      "createdAt": "2026-10-28T06:16:46.691Z",
+      "lastLoginAt": "2026-10-28T06:21:39.088Z"
+    },
+    {
+      "id": "U-3",
+      "name": "Maria Santos",
+      "email": "maria.santos@edm.local",
+      "role": "analyst",
+      "passwordHash": "$2a$10$fbyvoFnfYp07UVGZiOpCl.aEKaW.J4aIxfvHfBObfxtGAuUCGoXFO",
+      "createdAt": "2026-10-28T06:16:46.775Z",
+      "lastLoginAt": "2026-10-28T06:50:51.638Z"
+    },
+    {
+      "id": "U-4",
+      "name": "Vic Ramos",
+      "email": "viewer@edm.local",
+      "role": "viewer",
+      "passwordHash": "$2a$10$BtvKS/vicLxrQHJh0yjS1.LhuYi3tbe0ev7s/3eoJzpKI/LIW.QBi",
+      "createdAt": "2026-10-28T06:16:46.859Z",
+      "lastLoginAt": "2026-10-28T06:25:56.753Z"
+    },
+    {
+      "id": "U-5",
+      "name": "Grace Lim",
+      "email": "grace.lim@edm.local",
+      "role": "viewer",
+      "passwordHash": "$2a$10$a7li5SAUqFtFmb15V7MHF.f0CJGC/DRpzrDe7XzOpb4HOC6eazKo.",
+      "createdAt": "2026-10-28T06:16:46.947Z",
+      "lastLoginAt": null
+    }
+  ],
+  "counters": {
+    "run": 3,
+    "audit": 34,
+    "record": 100,
+    "user": 6
+  },
+  "jwtSecret": "77075b09d6c77804bf476e9b3812594a7eb656ad6f6de62106c8b0efe83e68c7"
+}
